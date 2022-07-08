@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondositiosed"
+    tools:context="AlvaroW.Espiritualidadawf">
+
+
+ <ImageView
+     android:id="@+id/imgtraduccionsitios"
+     android:layout_width="385dp"
+     android:layout_height="253dp"
+     android:layout_marginTop="8dp"
+     android:src="@drawable/cuadrositiosed"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.953"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="@+id/guideline15" />
+
+ <ImageView
+     android:id="@+id/imageView9"
+     android:layout_width="175dp"
+     android:layout_height="256dp"
+     android:layout_marginStart="376dp"
+     android:layout_marginTop="68dp"
+     android:src="@drawable/abueloexplicandoed"
+     app:layout_constraintBottom_toTopOf="@+id/guideline16"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="@+id/guideline15"
+     app:layout_constraintVertical_bias="0.324" />
+
+ <ImageView
+     android:id="@+id/imglaguna"
+     android:layout_width="170dp"
+     android:layout_height="77dp"
+     android:layout_margin="10px"
+     android:scaleType="fitXY"
+     android:src="@drawable/btnlagunaed"
+     app:layout_constraintEnd_toEndOf="@+id/imgtraduccionsitios"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toEndOf="@+id/imgpetroglifo"
+     app:layout_constraintTop_toBottomOf="@+id/imgmontana" />
+
+ <ImageView
+     android:id="@+id/imgojoagua"
+     android:layout_width="170dp"
+     android:layout_height="77dp"
+     android:layout_margin="10px"
+     android:scaleType="centerCrop"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toStartOf="@+id/imageView9"
+     app:layout_constraintHorizontal_bias="0.048"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/imgpetroglifo"
+     app:layout_constraintVertical_bias="0.0"
+     app:srcCompat="@drawable/btnojoaguaed" />
+
+ <ImageView
+     android:id="@+id/imgmontana"
+     android:layout_width="170dp"
+     android:layout_height="77dp"
+     android:layout_margin="10px"
+     android:layout_marginTop="8dp"
+     android:layout_marginEnd="348dp"
+     android:scaleType="fitXY"
+     app:layout_constraintEnd_toEndOf="@+id/imgtraduccionsitios"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toEndOf="@+id/imgpetroglifo"
+     app:layout_constraintTop_toBottomOf="@+id/imageView18"
+     app:srcCompat="@drawable/btnmontanaed" />
+
+ <ImageView
+     android:id="@+id/imgpetroglifo"
+     android:layout_width="170dp"
+     android:layout_height="77dp"
+     android:layout_margin="10px"
+     android:scaleType="fitXY"
+     app:layout_constraintBottom_toTopOf="@+id/guideline16"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.023"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/imageView18"
+     app:layout_constraintVertical_bias="0.0"
+     app:srcCompat="@drawable/btnpetroglifoed" />
+
+ <androidx.constraintlayout.widget.Guideline
+     android:id="@+id/guideline15"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     app:layout_constraintGuide_begin="6dp" />
+
+ <androidx.constraintlayout.widget.Guideline
+     android:id="@+id/guideline16"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     app:layout_constraintGuide_begin="404dp" />
+
+ <ImageView
+     android:id="@+id/imageView10"
+     android:layout_width="267dp"
+     android:layout_height="132dp"
+     android:layout_marginTop="260dp"
+     android:src="@drawable/ninosed"
+     app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="1.0"
+     app:layout_constraintStart_toStartOf="@+id/imageView9"
+     app:layout_constraintTop_toTopOf="@+id/imgtraduccionsitios"
+     app:layout_constraintVertical_bias="0.442" />
+
+ <ImageView
+     android:id="@+id/imageView18"
+     android:layout_width="282dp"
+     android:layout_height="84dp"
+     android:layout_marginTop="8dp"
+     android:layout_marginEnd="16dp"
+     android:src="@drawable/titleespiritualidaded"
+     app:layout_constraintBottom_toTopOf="@+id/guideline16"
+     app:layout_constraintEnd_toStartOf="@+id/imgtraduccionsitios"
+     app:layout_constraintHorizontal_bias="0.406"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="@+id/guideline15"
+     app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

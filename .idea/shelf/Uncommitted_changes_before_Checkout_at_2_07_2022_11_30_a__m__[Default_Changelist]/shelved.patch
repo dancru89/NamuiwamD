@@ -1,0 +1,499 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_14_05_2022_7_11_p__m__[Default_Changelist]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_14_05_2022_7_11_p__m__[Default_Changelist]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_14_05_2022_7_11_p__m__[Default_Changelist]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_14_05_2022_7_11_p__m__[Default_Changelist]/shelved.patch	(revision 7e86ca56f3c234826dc6d31b09291dcb5e8383f0)
++++ /dev/null	(revision 7e86ca56f3c234826dc6d31b09291dcb5e8383f0)
+@@ -1,104 +0,0 @@
+-Index: app/src/main/java/com/example/namuiwan/erikadaniel/Menued.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package com.example.namuiwan.erikadaniel;\r\n\r\nimport android.content.Intent;\r\nimport android.media.MediaPlayer;\r\nimport android.os.Bundle;\r\nimport android.provider.MediaStore;\r\nimport android.view.View;\r\nimport android.widget.ImageView;\r\nimport android.widget.Toast;\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport com.example.namuiwan.AlvaroW.Splashinicioawf;\r\nimport com.example.namuiwan.Josue.rompeca.Home;\r\nimport com.example.namuiwan.R;\r\nimport com.example.namuiwan.willi_zaret.Principal_wz;\r\nimport com.example.namuiwan.yatulve.MenuHuerta;\r\n\r\n\r\npublic class Menued extends AppCompatActivity  implements View.OnClickListener  {\r\n\r\n    ImageView btncasa, btncocina, btnhuerta, btnartesania, btnjugar;\r\n    MediaPlayer artesania, casa, cocina, huerta, juegos;\r\n\r\n\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_menued);\r\n        referenciar();\r\n    }\r\n\r\n    private void referenciar() {\r\n        btncasa = findViewById(R.id.btncasa);\r\n        btncasa.setOnClickListener(this);\r\n        btncocina = findViewById(R.id.btncocina);\r\n        btncocina.setOnClickListener(this);\r\n        btnhuerta = findViewById(R.id.btnhuerta);\r\n        btnhuerta.setOnClickListener(this);\r\n        btnartesania = findViewById(R.id.btnartesania);\r\n        btnartesania.setOnClickListener(this);\r\n        btnjugar = findViewById(R.id.btnjugar);\r\n        btnjugar.setOnClickListener(this);\r\n\r\n        //almacenar sonidos en las variables\r\n        artesania = MediaPlayer.create(this,R.raw.artesaniased);\r\n        casa = MediaPlayer.create(this,R.raw.casaed);\r\n        cocina = MediaPlayer.create(this,R.raw.cocinaed);\r\n        huerta = MediaPlayer.create(this,R.raw.huertaed);\r\n        juegos = MediaPlayer.create(this,R.raw.juegosed);\r\n\r\n    }\r\n\r\n    @Override\r\n    public void onClick(View view) {\r\n        switch (view.getId()) {\r\n\r\n            case R.id.btncasa:\r\n                Intent intent1 = new Intent(Menued.this, Casaed.class);\r\n                startActivity(intent1);\r\n                casa.start();\r\n                break;\r\n\r\n            case R.id.btnhuerta:\r\n                Intent intent2 = new Intent(Menued.this, MenuHuerta.class);\r\n                startActivity(intent2);\r\n                huerta.start();\r\n                break;\r\n\r\n            case R.id.btnartesania:\r\n                Intent intent3 = new Intent(Menued.this, Principal_wz.class);\r\n                startActivity(intent3);\r\n                artesania.start();\r\n                break;\r\n\r\n            case R.id.btncocina:\r\n                Intent intent4 = new Intent(Menued.this, Splashinicioawf.class);\r\n                startActivity(intent4);\r\n                cocina.start();\r\n                break;\r\n\r\n            case R.id.btnjugar:\r\n                Intent intent5 = new Intent(Menued.this, Home.class);\r\n                startActivity(intent5);\r\n                juegos.start();\r\n\r\n\r\n\r\n\r\n\r\n\r\n        }\r\n    }\r\n\r\n\r\n\r\n\r\n\r\n\r\n}\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/java/com/example/namuiwan/erikadaniel/Menued.java b/app/src/main/java/com/example/namuiwan/erikadaniel/Menued.java
+---- a/app/src/main/java/com/example/namuiwan/erikadaniel/Menued.java	(revision 983adb0fcf5a43a002e2f59fcda91c1a99c9ead4)
+-+++ b/app/src/main/java/com/example/namuiwan/erikadaniel/Menued.java	(date 1652551894471)
+-@@ -10,6 +10,7 @@
+- import androidx.appcompat.app.AppCompatActivity;
+- 
+- import com.example.namuiwan.AlvaroW.Splashinicioawf;
+-+import com.example.namuiwan.Josue.JuegosCJ;
+- import com.example.namuiwan.Josue.rompeca.Home;
+- import com.example.namuiwan.R;
+- import com.example.namuiwan.willi_zaret.Principal_wz;
+-@@ -80,7 +81,7 @@
+-                 break;
+- 
+-             case R.id.btnjugar:
+--                Intent intent5 = new Intent(Menued.this, Home.class);
+-+                Intent intent5 = new Intent(Menued.this, JuegosCJ.class);
+-                 startActivity(intent5);
+-                 juegos.start();
+- 
+-Index: app/src/main/java/com/example/namuiwan/Josue/JuegosCJ.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package com.example.namuiwan.Josue;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport android.content.Intent;\r\nimport android.os.Bundle;\r\nimport android.view.View;\r\nimport android.widget.Button;\r\n\r\nimport com.example.namuiwan.Josue.rompeca.Home;\r\nimport com.example.namuiwan.R;\r\n\r\npublic class JuegosCJ extends AppCompatActivity {\r\n    Button btnPuzzle,btnMemorie,btnAdivina,btnHabilidades;\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_juegos_cj);\r\n\r\n        btnPuzzle = findViewById(R.id.btnPuzzle);\r\n\r\n        btnPuzzle.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                Intent intent = new Intent(getApplicationContext(), Home.class);\r\n                startActivityForResult(intent, 0);\r\n            }\r\n        });\r\n        btnAdivina = findViewById(R.id.btnAdivina);\r\n        btnAdivina.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                Intent intent = new Intent(getApplicationContext(),MenuAdivina.class);\r\n                startActivityForResult(intent, 0);\r\n            }\r\n        });\r\n\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/java/com/example/namuiwan/Josue/JuegosCJ.java b/app/src/main/java/com/example/namuiwan/Josue/JuegosCJ.java
+---- a/app/src/main/java/com/example/namuiwan/Josue/JuegosCJ.java	(revision 983adb0fcf5a43a002e2f59fcda91c1a99c9ead4)
+-+++ b/app/src/main/java/com/example/namuiwan/Josue/JuegosCJ.java	(date 1652573266636)
+-@@ -35,6 +35,5 @@
+-                 startActivityForResult(intent, 0);
+-             }
+-         });
+--
+-     }
+- }
+-\ No newline at end of file
+-Index: .idea/deploymentTargetDropDown.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/deploymentTargetDropDown.xml b/.idea/deploymentTargetDropDown.xml
+-new file mode 100644
+---- /dev/null	(date 1652551471214)
+-+++ b/.idea/deploymentTargetDropDown.xml	(date 1652551471214)
+-@@ -0,0 +1,17 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="deploymentTargetDropDown">
+-+    <targetSelectedWithDropDown>
+-+      <Target>
+-+        <type value="QUICK_BOOT_TARGET" />
+-+        <deviceKey>
+-+          <Key>
+-+            <type value="VIRTUAL_DEVICE_PATH" />
+-+            <value value="C:\Users\danii\.android\avd\Pixel_2_API_30.avd" />
+-+          </Key>
+-+        </deviceKey>
+-+      </Target>
+-+    </targetSelectedWithDropDown>
+-+    <timeTargetWasSelectedWithDropDown value="2022-05-14T16:05:32.050861500Z" />
+-+  </component>
+-+</project>
+-\ No newline at end of file
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"DesignSurface\">\r\n    <option name=\"filePathToZoomLevelMap\">\r\n      <map>\r\n        <entry key=\"..\\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_adivina.xml\" value=\"0.11604439959636731\" />\r\n        <entry key=\"..\\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_juegos_cj.xml\" value=\"0.11604439959636731\" />\r\n        <entry key=\"..\\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menu_adivina.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/adivina1.xml\" value=\"0.11604439959636731\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_casaed.xml\" value=\"0.12552083333333333\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_inicio.xml\" value=\"0.27291666666666664\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_main.xml\" value=\"0.27291666666666664\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_mainjo.xml\" value=\"0.21875\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menu_huertave.xml\" value=\"0.21875\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menued.xml\" value=\"0.33\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_principal_wz.xml\" value=\"0.21875\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/cocinaawf.xml\" value=\"0.21875\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_alfareria_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_arsesania_wz.xml\" value=\"0.18\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_manuales_telar_wz.xml\" value=\"0.13243243243243244\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_manuales_wz.xml\" value=\"0.13243243243243244\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_patio_wz.xml\" value=\"0.13243243243243244\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_principal_wz.xml\" value=\"0.13243243243243244\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_alfareria_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_arsesania_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_manuales_telar_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_manuales_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_patio_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_principal_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_image_black_24dp.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_background.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_foreground.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_photo_camera_black_24dp.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable/ic_launcher_background.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_alfareria_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_arsesania_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_bosqueed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_calidove.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_casaed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_cuerpoed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_domesticoed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_familiaed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_friove.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_frutasve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_geometricaed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_herramientasve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_huertaed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_huertave.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_main.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_mainjo.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_manuales_telar_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_manuales_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_menu_huertave.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_menued.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_numerosve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_orientacioned.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_patio_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_plantased.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_principal_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_puzzlejo.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_saludosawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_salvajeed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_sitioed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_tierraed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_truequeve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_verdurasve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/autoridadawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/autoridadcomunidadawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/cocinaawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/convivenciaawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/espiritualidadawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/grid_elementjo.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_anaco_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_chumbe_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_correa_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_jigra_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_mochila_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_olla.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_paila_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_plato_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_ruana_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_sombrero_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/juego.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/splash_inicioawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/xml/file_paths.xml\" value=\"0.25416666666666665\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"Android Studio default JDK\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision 983adb0fcf5a43a002e2f59fcda91c1a99c9ead4)
+-+++ b/.idea/misc.xml	(date 1652573266887)
+-@@ -3,10 +3,6 @@
+-   <component name="DesignSurface">
+-     <option name="filePathToZoomLevelMap">
+-       <map>
+--        <entry key="..\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_adivina.xml" value="0.11604439959636731" />
+--        <entry key="..\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_juegos_cj.xml" value="0.11604439959636731" />
+--        <entry key="..\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menu_adivina.xml" value="0.1" />
+--        <entry key="..\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/adivina1.xml" value="0.11604439959636731" />
+-         <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_casaed.xml" value="0.12552083333333333" />
+-         <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_inicio.xml" value="0.27291666666666664" />
+-         <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+-@@ -27,6 +23,9 @@
+-         <entry key="..\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_manuales_wz.xml" value="0.1" />
+-         <entry key="..\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_patio_wz.xml" value="0.1" />
+-         <entry key="..\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_principal_wz.xml" value="0.1" />
+-+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_juegos_cj.xml" value="0.25416666666666665" />
+-+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+-+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menued.xml" value="0.1" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_image_black_24dp.xml" value="0.197" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.197" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.197" />
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_17_05_2022_2_55_p__m__[Default_Changelist]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_17_05_2022_2_55_p__m__[Default_Changelist]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_17_05_2022_2_55_p__m__[Default_Changelist]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_17_05_2022_2_55_p__m__[Default_Changelist]/shelved.patch	(revision 7e86ca56f3c234826dc6d31b09291dcb5e8383f0)
++++ /dev/null	(revision 7e86ca56f3c234826dc6d31b09291dcb5e8383f0)
+@@ -1,24 +0,0 @@
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"DesignSurface\">\r\n    <option name=\"filePathToZoomLevelMap\">\r\n      <map>\r\n        <entry key=\"..\\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_adivina.xml\" value=\"0.11604439959636731\" />\r\n        <entry key=\"..\\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_juegos_cj.xml\" value=\"0.11604439959636731\" />\r\n        <entry key=\"..\\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menu_adivina.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/adivina1.xml\" value=\"0.11604439959636731\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_casaed.xml\" value=\"0.12552083333333333\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_inicio.xml\" value=\"0.27291666666666664\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_main.xml\" value=\"0.27291666666666664\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_mainjo.xml\" value=\"0.21875\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menu_huertave.xml\" value=\"0.21875\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menued.xml\" value=\"0.33\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_principal_wz.xml\" value=\"0.21875\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/cocinaawf.xml\" value=\"0.21875\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_alfareria_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_arsesania_wz.xml\" value=\"0.18\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_manuales_telar_wz.xml\" value=\"0.13243243243243244\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_manuales_wz.xml\" value=\"0.13243243243243244\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_patio_wz.xml\" value=\"0.13243243243243244\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_principal_wz.xml\" value=\"0.13243243243243244\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_alfareria_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_arsesania_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_manuales_telar_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_manuales_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_patio_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_principal_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_juegos_cj.xml\" value=\"0.2625\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_inicio.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_juegos_cj.xml\" value=\"0.25025641025641027\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_mainjo.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menued.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_image_black_24dp.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_background.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_foreground.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_photo_camera_black_24dp.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable/ic_launcher_background.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_alfareria_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_arsesania_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_bosqueed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_calidove.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_casaed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_cuerpoed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_domesticoed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_familiaed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_friove.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_frutasve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_geometricaed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_herramientasve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_huertaed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_huertave.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_main.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_mainjo.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_manuales_telar_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_manuales_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_menu_huertave.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_menued.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_numerosve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_orientacioned.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_patio_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_plantased.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_principal_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_puzzlejo.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_saludosawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_salvajeed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_sitioed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_tierraed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_truequeve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_verdurasve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/autoridadawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/autoridadcomunidadawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/cocinaawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/convivenciaawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/espiritualidadawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/grid_elementjo.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_anaco_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_chumbe_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_correa_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_jigra_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_mochila_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_olla.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_paila_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_plato_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_ruana_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_sombrero_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/juego.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/splash_inicioawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/xml/file_paths.xml\" value=\"0.25416666666666665\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"Android Studio default JDK\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision 3909370e67c00234ee9af9fd736afc8b64334e6d)
+-+++ b/.idea/misc.xml	(date 1652750974469)
+-@@ -28,10 +28,13 @@
+-         <entry key="..\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_patio_wz.xml" value="0.1" />
+-         <entry key="..\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_principal_wz.xml" value="0.1" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_juegos_cj.xml" value="0.2625" />
+-+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_mainjo.xml" value="0.2625" />
+-+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_puzzlejo.xml" value="0.2625" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_inicio.xml" value="0.25416666666666665" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_juegos_cj.xml" value="0.25025641025641027" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_mainjo.xml" value="0.25416666666666665" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menued.xml" value="0.25416666666666665" />
+-+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_puzzlejo.xml" value="0.25416666666666665" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_image_black_24dp.xml" value="0.197" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.197" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.197" />
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_18_05_2022_9_24_p__m__[Default_Changelist]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2022_9_24_p__m__[Default_Changelist]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2022_9_24_p__m__[Default_Changelist]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2022_9_24_p__m__[Default_Changelist]/shelved.patch	(revision 7e86ca56f3c234826dc6d31b09291dcb5e8383f0)
++++ /dev/null	(revision 7e86ca56f3c234826dc6d31b09291dcb5e8383f0)
+@@ -1,298 +0,0 @@
+-Index: app/src/main/res/layout/activity_casaed.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\".erikadaniel.Casaed\"\r\n    android:background=\"@drawable/fondocasaed\">\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"match_parent\"\r\n\r\n        android:orientation=\"horizontal\">\r\n\r\n        <ScrollView\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"match_parent\"\r\n            android:orientation=\"horizontal\">\r\n\r\n            <LinearLayout\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:orientation=\"vertical\">\r\n\r\n                <TextView\r\n                    android:id=\"@+id/textView2\"\r\n                    android:layout_width=\"wrap_content\"\r\n                    android:layout_height=\"wrap_content\"\r\n                    android:layout_gravity=\"center\"\r\n                    android:layout_marginTop=\"180sp\"\r\n                    android:text=\"CASA\"\r\n                    android:textColor=\"#FAF6F6\"\r\n                    android:textSize=\"48sp\" />\r\n\r\n                <TextView\r\n                    android:id=\"@+id/textView3\"\r\n                    android:layout_width=\"wrap_content\"\r\n                    android:layout_height=\"wrap_content\"\r\n                    android:layout_gravity=\"center\"\r\n                    android:text=\"Ya\"\r\n                    android:textColor=\"#FAF6F6\"\r\n                    android:textSize=\"24sp\" />\r\n\r\n                <TableLayout\r\n                    android:layout_width=\"wrap_content\"\r\n                    android:layout_height=\"match_parent\"\r\n                    android:layout_gravity=\"center\">\r\n\r\n                    <TableRow\r\n                        android:layout_width=\"match_parent\"\r\n                        android:layout_height=\"match_parent\">\r\n\r\n                        <Button\r\n                            android:id=\"@+id/btntierra\"\r\n                            android:layout_width=\"360dp\"\r\n                            android:layout_height=\"75dp\"\r\n                            android:layout_gravity=\"center\"\r\n                            android:text=\"TIERRA (Pirϴ)\" />\r\n                    </TableRow>\r\n\r\n                    <TableRow\r\n                        android:layout_width=\"match_parent\"\r\n                        android:layout_height=\"match_parent\">\r\n\r\n                        <Button\r\n                            android:id=\"@+id/btnfamilia\"\r\n                            android:layout_width=\"297dp\"\r\n                            android:layout_height=\"75dp\"\r\n                            android:layout_gravity=\"center\"\r\n                            android:text=\"FAMILIA (Yawelϴ)\" />\r\n                    </TableRow>\r\n\r\n                    <TableRow\r\n                        android:layout_width=\"match_parent\"\r\n                        android:layout_height=\"match_parent\">\r\n\r\n                        <Button\r\n                            android:id=\"@+id/btncuerpo\"\r\n                            android:layout_width=\"360dp\"\r\n                            android:layout_height=\"75dp\"\r\n                            android:layout_gravity=\"center\"\r\n                            android:text=\"PARTES DEL CUERPO (Namui asr)\" />\r\n                    </TableRow>\r\n\r\n                    <TableRow\r\n                        android:layout_width=\"match_parent\"\r\n                        android:layout_height=\"match_parent\">\r\n\r\n                        <Button\r\n                            android:id=\"@+id/btnorientacion\"\r\n                            android:layout_width=\"360dp\"\r\n                            android:layout_height=\"75dp\"\r\n                            android:layout_gravity=\"center\"\r\n                            android:text=\"ORIENTACION DE LA CASA (Ya pϴtϴkatan9\" />\r\n                    </TableRow>\r\n\r\n                    <TableRow\r\n                        android:layout_width=\"match_parent\"\r\n                        android:layout_height=\"match_parent\">\r\n\r\n                        <Button\r\n                            android:id=\"@+id/btngeometrica\"\r\n                            android:layout_width=\"360dp\"\r\n                            android:layout_height=\"75dp\"\r\n                            android:layout_gravity=\"center\"\r\n                            android:text=\"FGURAS GEOMETRICAS\" />\r\n                    </TableRow>\r\n\r\n                    <TableRow\r\n                        android:layout_width=\"match_parent\"\r\n                        android:layout_height=\"match_parent\">\r\n\r\n                        <Button\r\n                            android:id=\"@+id/btndomestico\"\r\n                            android:layout_width=\"360dp\"\r\n                            android:layout_height=\"75dp\"\r\n                            android:layout_gravity=\"center\"\r\n                            android:text=\"ANIMALES (Ushamera)\" />\r\n                    </TableRow>\r\n\r\n\r\n                </TableLayout>\r\n\r\n\r\n            </LinearLayout>\r\n        </ScrollView>\r\n\r\n    </LinearLayout>\r\n\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/res/layout/activity_casaed.xml b/app/src/main/res/layout/activity_casaed.xml
+---- a/app/src/main/res/layout/activity_casaed.xml	(revision 3909370e67c00234ee9af9fd736afc8b64334e6d)
+-+++ b/app/src/main/res/layout/activity_casaed.xml	(date 1652817313254)
+-@@ -10,28 +10,33 @@
+-     <LinearLayout
+-         android:layout_width="match_parent"
+-         android:layout_height="match_parent"
+--
+-         android:orientation="horizontal">
+- 
+--        <ScrollView
+-+        <TableLayout
+-             android:layout_width="match_parent"
+-             android:layout_height="match_parent"
+--            android:orientation="horizontal">
+-+            android:layout_gravity="center"
+-+            android:gravity="center">
+- 
+--            <LinearLayout
+-+            <TableRow
+-                 android:layout_width="match_parent"
+--                android:layout_height="wrap_content"
+--                android:orientation="vertical">
+-+                android:layout_height="match_parent"
+-+                android:gravity="center">
+- 
+-                 <TextView
+-                     android:id="@+id/textView2"
+-                     android:layout_width="wrap_content"
+-                     android:layout_height="wrap_content"
+-                     android:layout_gravity="center"
+--                    android:layout_marginTop="180sp"
+-                     android:text="CASA"
+--                    android:textColor="#FAF6F6"
+-+                    android:textColor="@color/black"
+-                     android:textSize="48sp" />
+-+            </TableRow>
+-+
+-+            <TableRow
+-+                android:layout_width="match_parent"
+-+                android:layout_height="match_parent"
+-+                android:gravity="center">
+- 
+-                 <TextView
+-                     android:id="@+id/textView3"
+-@@ -39,93 +44,100 @@
+-                     android:layout_height="wrap_content"
+-                     android:layout_gravity="center"
+-                     android:text="Ya"
+--                    android:textColor="#FAF6F6"
+-+                    android:textColor="@color/black"
+-                     android:textSize="24sp" />
+--
+--                <TableLayout
+--                    android:layout_width="wrap_content"
+--                    android:layout_height="match_parent"
+--                    android:layout_gravity="center">
+-+            </TableRow>
+- 
+--                    <TableRow
+--                        android:layout_width="match_parent"
+--                        android:layout_height="match_parent">
+-+            <TableRow
+-+                android:layout_width="match_parent"
+-+                android:layout_height="match_parent"
+-+                android:gravity="center">
+- 
+--                        <Button
+--                            android:id="@+id/btntierra"
+--                            android:layout_width="360dp"
+--                            android:layout_height="75dp"
+--                            android:layout_gravity="center"
+--                            android:text="TIERRA (Pirϴ)" />
+--                    </TableRow>
+-+                <ImageButton
+-+                    android:id="@+id/btntierra"
+-+                    android:layout_width="300dp"
+-+                    android:layout_height="90dp"
+-+                    android:backgroundTint="#00FFFFFF"
+-+                    android:scaleType="centerCrop"
+-+                    app:srcCompat="@drawable/tierra" />
+-+            </TableRow>
+- 
+--                    <TableRow
+--                        android:layout_width="match_parent"
+--                        android:layout_height="match_parent">
+-+            <TableRow
+-+                android:layout_width="match_parent"
+-+                android:layout_height="match_parent"
+-+                android:gravity="center">
+- 
+--                        <Button
+--                            android:id="@+id/btnfamilia"
+--                            android:layout_width="297dp"
+--                            android:layout_height="75dp"
+--                            android:layout_gravity="center"
+--                            android:text="FAMILIA (Yawelϴ)" />
+--                    </TableRow>
+-+                <ImageButton
+-+                    android:id="@+id/btnfamilia"
+-+                    android:layout_width="300dp"
+-+                    android:layout_height="90dp"
+-+                    android:backgroundTint="#00FFFFFF"
+-+                    android:scaleType="centerCrop"
+-+                    app:srcCompat="@drawable/familia" />
+-+            </TableRow>
+- 
+--                    <TableRow
+--                        android:layout_width="match_parent"
+--                        android:layout_height="match_parent">
+-+            <TableRow
+-+                android:layout_width="match_parent"
+-+                android:layout_height="match_parent"
+-+                android:gravity="center">
+- 
+--                        <Button
+--                            android:id="@+id/btncuerpo"
+--                            android:layout_width="360dp"
+--                            android:layout_height="75dp"
+--                            android:layout_gravity="center"
+--                            android:text="PARTES DEL CUERPO (Namui asr)" />
+--                    </TableRow>
+-+                <ImageButton
+-+                    android:id="@+id/btncuerpo"
+-+                    android:layout_width="300dp"
+-+                    android:layout_height="90dp"
+-+                    android:backgroundTint="#00FFFFFF"
+-+                    android:scaleType="centerCrop"
+-+                    app:srcCompat="@drawable/partes" />
+-+            </TableRow>
+- 
+--                    <TableRow
+--                        android:layout_width="match_parent"
+--                        android:layout_height="match_parent">
+-+            <TableRow
+-+                android:layout_width="match_parent"
+-+                android:layout_height="match_parent"
+-+                android:gravity="center">
+- 
+--                        <Button
+--                            android:id="@+id/btnorientacion"
+--                            android:layout_width="360dp"
+--                            android:layout_height="75dp"
+--                            android:layout_gravity="center"
+--                            android:text="ORIENTACION DE LA CASA (Ya pϴtϴkatan9" />
+--                    </TableRow>
+-+                <ImageButton
+-+                    android:id="@+id/btnorientacion"
+-+                    android:layout_width="90dp"
+-+                    android:layout_height="100dp"
+-+                    android:backgroundTint="#00FFFFFF"
+-+                    android:scaleType="centerCrop"
+-+                    app:srcCompat="@drawable/orientacion" />
+-+            </TableRow>
+- 
+--                    <TableRow
+--                        android:layout_width="match_parent"
+--                        android:layout_height="match_parent">
+-+            <TableRow
+-+                android:layout_width="match_parent"
+-+                android:layout_height="match_parent"
+-+                android:gravity="center">
+- 
+--                        <Button
+--                            android:id="@+id/btngeometrica"
+--                            android:layout_width="360dp"
+--                            android:layout_height="75dp"
+--                            android:layout_gravity="center"
+--                            android:text="FGURAS GEOMETRICAS" />
+--                    </TableRow>
+-+                <ImageButton
+-+                    android:id="@+id/btngeometrica"
+-+                    android:layout_width="300dp"
+-+                    android:layout_height="90dp"
+-+                    android:layout_gravity="center"
+-+                    android:backgroundTint="#00FFFFFF"
+-+                    android:scaleType="centerCrop"
+-+                    android:text="FGURAS GEOMETRICAS"
+-+                    app:srcCompat="@drawable/figuras" />
+-+            </TableRow>
+- 
+--                    <TableRow
+--                        android:layout_width="match_parent"
+--                        android:layout_height="match_parent">
+-+            <TableRow
+-+                android:layout_width="match_parent"
+-+                android:layout_height="match_parent"
+-+                android:gravity="center">
+- 
+--                        <Button
+--                            android:id="@+id/btndomestico"
+--                            android:layout_width="360dp"
+--                            android:layout_height="75dp"
+--                            android:layout_gravity="center"
+--                            android:text="ANIMALES (Ushamera)" />
+--                    </TableRow>
+-+                <ImageButton
+-+                    android:id="@+id/btndomestico"
+-+                    android:layout_width="300dp"
+-+                    android:layout_height="90dp"
+-+                    android:layout_gravity="center"
+-+                    android:backgroundTint="#00FFFFFF"
+-+                    android:scaleType="centerCrop"
+-+                    android:text="ANIMALES (Ushamera)"
+-+                    app:srcCompat="@drawable/animales" />
+-+            </TableRow>
+- 
+--
+--                </TableLayout>
+--
+--
+--            </LinearLayout>
+--        </ScrollView>
+--
+-+        </TableLayout>
+-     </LinearLayout>
+- 
+-+
+- </androidx.constraintlayout.widget.ConstraintLayout>
+-\ No newline at end of file
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"DesignSurface\">\r\n    <option name=\"filePathToZoomLevelMap\">\r\n      <map>\r\n        <entry key=\"..\\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_adivina.xml\" value=\"0.11604439959636731\" />\r\n        <entry key=\"..\\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_juegos_cj.xml\" value=\"0.11604439959636731\" />\r\n        <entry key=\"..\\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menu_adivina.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/HP/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/adivina1.xml\" value=\"0.11604439959636731\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_casaed.xml\" value=\"0.12552083333333333\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_inicio.xml\" value=\"0.27291666666666664\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_main.xml\" value=\"0.27291666666666664\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_mainjo.xml\" value=\"0.21875\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menu_huertave.xml\" value=\"0.21875\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menued.xml\" value=\"0.33\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_principal_wz.xml\" value=\"0.21875\" />\r\n        <entry key=\"..\\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/cocinaawf.xml\" value=\"0.21875\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_alfareria_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_arsesania_wz.xml\" value=\"0.18\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_manuales_telar_wz.xml\" value=\"0.13243243243243244\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_manuales_wz.xml\" value=\"0.13243243243243244\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_patio_wz.xml\" value=\"0.13243243243243244\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_principal_wz.xml\" value=\"0.13243243243243244\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_alfareria_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_arsesania_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_manuales_telar_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_manuales_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_patio_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_principal_wz.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_juegos_cj.xml\" value=\"0.2625\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_inicio.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_juegos_cj.xml\" value=\"0.25025641025641027\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_mainjo.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menued.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_image_black_24dp.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_background.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_foreground.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_photo_camera_black_24dp.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable/ic_launcher_background.xml\" value=\"0.197\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_alfareria_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_arsesania_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_bosqueed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_calidove.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_casaed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_cuerpoed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_domesticoed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_familiaed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_friove.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_frutasve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_geometricaed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_herramientasve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_huertaed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_huertave.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_main.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_mainjo.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_manuales_telar_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_manuales_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_menu_huertave.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_menued.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_numerosve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_orientacioned.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_patio_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_plantased.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_principal_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_puzzlejo.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_saludosawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_salvajeed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_sitioed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_tierraed.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_truequeve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_verdurasve.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/autoridadawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/autoridadcomunidadawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/cocinaawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/convivenciaawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/espiritualidadawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/grid_elementjo.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_anaco_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_chumbe_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_correa_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_jigra_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_mochila_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_olla.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_paila_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_plato_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_ruana_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_sombrero_wz.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/juego.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/splash_inicioawf.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/xml/file_paths.xml\" value=\"0.25416666666666665\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"Android Studio default JDK\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision 3909370e67c00234ee9af9fd736afc8b64334e6d)
+-+++ b/.idea/misc.xml	(date 1652818820930)
+-@@ -28,10 +28,14 @@
+-         <entry key="..\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_patio_wz.xml" value="0.1" />
+-         <entry key="..\:/Users/Wilian Sevilla/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_principal_wz.xml" value="0.1" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_juegos_cj.xml" value="0.2625" />
+-+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_mainjo.xml" value="0.2625" />
+-+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_puzzlejo.xml" value="0.2625" />
+-+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_arrastrar_figurasjo.xml" value="0.25416666666666665" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_inicio.xml" value="0.25416666666666665" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_juegos_cj.xml" value="0.25025641025641027" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_mainjo.xml" value="0.25416666666666665" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menued.xml" value="0.25416666666666665" />
+-+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_puzzlejo.xml" value="0.25416666666666665" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_image_black_24dp.xml" value="0.197" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.197" />
+-         <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.197" />
+-Index: app/src/main/res/layout/activity_tierraed.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\".erikadaniel.Tierraed\"\r\n    android:background=\"@drawable/namuiwanfondoed\">\r\n\r\n\r\n    <Button\r\n        android:id=\"@+id/btnplantas\"\r\n        android:layout_width=\"216dp\"\r\n        android:layout_height=\"61dp\"\r\n        android:text=\"PLANTAS (tsilϴtusrmera)\"\r\n        android:textSize=\"12sp\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintHorizontal_bias=\"0.497\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\"\r\n        app:layout_constraintVertical_bias=\"0.464\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/btnbosque\"\r\n        android:layout_width=\"168dp\"\r\n        android:layout_height=\"57dp\"\r\n        android:text=\"bosque(tsip)\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\"\r\n        app:layout_constraintVertical_bias=\"0.59\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textView23\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_gravity=\"center\"\r\n        android:text=\"Tierra -  Pirϴ\"\r\n        android:textColor=\"#FAF6F6\"\r\n        android:textDirection=\"firstStrongLtr\"\r\n        android:textIsSelectable=\"true\"\r\n        android:textSize=\"48sp\"\r\n        android:typeface=\"normal\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintHorizontal_bias=\"0.496\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\"\r\n        app:layout_constraintVertical_bias=\"0.251\" />\r\n\r\n\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/res/layout/activity_tierraed.xml b/app/src/main/res/layout/activity_tierraed.xml
+---- a/app/src/main/res/layout/activity_tierraed.xml	(revision 3909370e67c00234ee9af9fd736afc8b64334e6d)
+-+++ b/app/src/main/res/layout/activity_tierraed.xml	(date 1652817313255)
+-@@ -5,7 +5,7 @@
+-     android:layout_width="match_parent"
+-     android:layout_height="match_parent"
+-     tools:context=".erikadaniel.Tierraed"
+--    android:background="@drawable/namuiwanfondoed">
+-+    android:background="@drawable/fondocasaed">
+- 
+- 
+-     <Button
+-Index: app/src/main/java/com/example/namuiwan/erikadaniel/Casaed.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package com.example.namuiwan.erikadaniel;\r\n\r\nimport android.content.Intent;\r\nimport android.os.Bundle;\r\nimport android.view.View;\r\nimport android.widget.Button;\r\nimport android.widget.Toast;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport com.example.namuiwan.R;\r\n\r\npublic class Casaed extends AppCompatActivity implements View.OnClickListener {\r\n\r\n    Button btntierra, btnfamilia, btncuerpo, btnorientacion, btngeometrica, btndomestico;\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_casaed);\r\n        referenciar();\r\n    }\r\n    private void referenciar(){\r\n        btntierra= findViewById(R.id.btntierra);\r\n        btntierra.setOnClickListener(this);\r\n        btnfamilia= findViewById(R.id.btnfamilia);\r\n        btnfamilia.setOnClickListener(this);\r\n        btncuerpo= findViewById(R.id.btncuerpo);\r\n        btncuerpo.setOnClickListener(this);\r\n        btnorientacion= findViewById(R.id.btnorientacion);\r\n        btnorientacion.setOnClickListener(this);\r\n        btngeometrica= findViewById(R.id.btngeometrica);\r\n        btngeometrica.setOnClickListener(this);\r\n        btndomestico= findViewById(R.id.btndomestico);\r\n        btndomestico.setOnClickListener(this);\r\n\r\n\r\n    }\r\n\r\n    @Override\r\n    public void onClick(View v) {\r\n        switch (v.getId()){\r\n            case R.id.btntierra:\r\n                Toast.makeText(Casaed.this, \"A seleccionado  Tierra\", Toast.LENGTH_SHORT).show();\r\n                Intent intent = new Intent(Casaed.this, Tierraed.class);\r\n                startActivity(intent);\r\n                break;\r\n\r\n            case R.id.btnfamilia:\r\n                Toast.makeText(Casaed.this, \"A seleccionado Familia\", Toast.LENGTH_SHORT).show();\r\n                Intent intent1 = new Intent(Casaed.this, Familiaed.class);\r\n                startActivity(intent1);\r\n                break;\r\n\r\n            case R.id.btncuerpo:\r\n                Toast.makeText(Casaed.this, \"A seleccionado Partes del Cuerpos\", Toast.LENGTH_SHORT).show();\r\n                Intent intent2 = new Intent(Casaed.this, Cuerpoed.class);\r\n                startActivity(intent2);\r\n                break;\r\n\r\n            case R.id.btnorientacion:\r\n                Toast.makeText(Casaed.this, \"A seleccionado Orientacion\", Toast.LENGTH_SHORT).show();\r\n                Intent intent3 = new Intent(Casaed.this, Orientacioned.class);\r\n                startActivity(intent3);\r\n                break;\r\n\r\n            case R.id.btngeometrica:\r\n                Toast.makeText(Casaed.this, \"A seleccionado Figuras Geometricas\", Toast.LENGTH_SHORT).show();\r\n                Intent intent4 = new Intent(Casaed.this, Geometricaed.class);\r\n                startActivity(intent4);\r\n\r\n                break;\r\n            case R.id.btndomestico:\r\n                Toast.makeText(Casaed.this, \"A seleccionado Animales Domesticos\", Toast.LENGTH_SHORT).show();\r\n                Intent intent5 = new Intent(Casaed.this, Domesticoed.class);\r\n                startActivity(intent5);\r\n\r\n                break;\r\n\r\n\r\n\r\n        }\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/java/com/example/namuiwan/erikadaniel/Casaed.java b/app/src/main/java/com/example/namuiwan/erikadaniel/Casaed.java
+---- a/app/src/main/java/com/example/namuiwan/erikadaniel/Casaed.java	(revision 3909370e67c00234ee9af9fd736afc8b64334e6d)
+-+++ b/app/src/main/java/com/example/namuiwan/erikadaniel/Casaed.java	(date 1652817313237)
+-@@ -4,6 +4,7 @@
+- import android.os.Bundle;
+- import android.view.View;
+- import android.widget.Button;
+-+import android.widget.ImageView;
+- import android.widget.Toast;
+- 
+- import androidx.appcompat.app.AppCompatActivity;
+-@@ -12,7 +13,7 @@
+- 
+- public class Casaed extends AppCompatActivity implements View.OnClickListener {
+- 
+--    Button btntierra, btnfamilia, btncuerpo, btnorientacion, btngeometrica, btndomestico;
+-+    ImageView btntierra, btnfamilia, btncuerpo, btnorientacion, btngeometrica, btndomestico;
+- 
+-     @Override
+-     protected void onCreate(Bundle savedInstanceState) {
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_14_05_2022_1_04_p__m__[Default_Changelist]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_14_05_2022_1_04_p__m__[Default_Changelist]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_14_05_2022_1_04_p__m__[Default_Changelist]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_14_05_2022_1_04_p__m__[Default_Changelist]/shelved.patch	(revision 7e86ca56f3c234826dc6d31b09291dcb5e8383f0)
++++ /dev/null	(revision 7e86ca56f3c234826dc6d31b09291dcb5e8383f0)
+@@ -1,28 +0,0 @@
+-Index: .idea/deploymentTargetDropDown.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/deploymentTargetDropDown.xml b/.idea/deploymentTargetDropDown.xml
+-new file mode 100644
+---- /dev/null	(date 1652544534843)
+-+++ b/.idea/deploymentTargetDropDown.xml	(date 1652544534843)
+-@@ -0,0 +1,17 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="deploymentTargetDropDown">
+-+    <targetSelectedWithDropDown>
+-+      <Target>
+-+        <type value="QUICK_BOOT_TARGET" />
+-+        <deviceKey>
+-+          <Key>
+-+            <type value="VIRTUAL_DEVICE_PATH" />
+-+            <value value="C:\Users\danii\.android\avd\Pixel_2_API_30.avd" />
+-+          </Key>
+-+        </deviceKey>
+-+      </Target>
+-+    </targetSelectedWithDropDown>
+-+    <timeTargetWasSelectedWithDropDown value="2022-05-14T16:05:32.050861500Z" />
+-+  </component>
+-+</project>
+-\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"GRADLE\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"gradleHome\" value=\"$USER_HOME$/gradle-6.7.1\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveModulePerSourceSet\" value=\"false\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision 7e86ca56f3c234826dc6d31b09291dcb5e8383f0)
++++ b/.idea/gradle.xml	(date 1656779393983)
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Namuiwan.iml" filepath="$PROJECT_DIR$/.idea/modules/Namuiwan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Namuiwan.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Namuiwan.app.iml" />
+    </modules>
+  </component>
+</project>

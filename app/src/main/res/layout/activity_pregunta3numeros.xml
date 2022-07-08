@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yatulve.Pregunta3numeros"
+    android:background="@drawable/fondonumerosvve">
+
+    <ImageView
+        android:id="@+id/imgNumeros"
+        android:layout_width="305dp"
+        android:layout_height="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView49"
+        app:srcCompat="@drawable/numerosve"
+        android:contentDescription="TODO" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="87dp"
+        android:layout_height="28dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Puntos:"
+        android:textColor="#F3FFFFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <TextView
+        android:id="@+id/txtPuntos"
+        android:layout_width="16dp"
+        android:layout_height="27dp"
+        android:fontFamily="sans-serif-black"
+        android:text="0"
+        android:textColor="#F3FFFFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <ImageView
+        android:id="@+id/imgCulebrita"
+        android:layout_width="324dp"
+        android:layout_height="483dp"
+        android:layout_marginStart="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgNumeros"
+        app:srcCompat="@drawable/siluetaculebravve"
+        android:contentDescription="TODO"/>
+
+    <ImageView
+        android:id="@+id/imgDoce"
+        android:layout_width="35dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgOnce"
+        app:srcCompat="@drawable/doceve"
+        android:contentDescription="TODO"/>
+
+    <ImageView
+        android:id="@+id/imgOcho"
+        android:layout_width="31dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="184dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgSiete"
+        app:layout_constraintStart_toEndOf="@+id/imgNueve"
+        app:layout_constraintTop_toBottomOf="@+id/imgNumeros"
+        app:srcCompat="@drawable/ochove"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="TODO"/>
+
+    <ImageView
+        android:id="@+id/imgCinco"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.120"
+        app:layout_constraintStart_toEndOf="@+id/imgSeis"
+        app:layout_constraintTop_toBottomOf="@+id/imgCuatro"
+        app:srcCompat="@drawable/cincove"
+        android:contentDescription="TODO"
+        />
+
+    <ImageView
+        android:id="@+id/imgDiesciseis"
+        android:layout_width="35dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/imgQuince"
+        app:layout_constraintTop_toBottomOf="@+id/imgSeis"
+        app:srcCompat="@drawable/dieciseisve"
+        android:contentDescription="TODO"/>
+
+    <ImageView
+        android:id="@+id/imgQuince"
+        android:layout_width="34dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toEndOf="@+id/imgCatorce"
+        app:layout_constraintTop_toBottomOf="@+id/imgSiete"
+        app:srcCompat="@drawable/quinceve"
+        android:contentDescription="TODO"/>
+
+    <ImageView
+        android:id="@+id/imgDiescinueve"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="85dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgDiesciseis"
+        app:srcCompat="@drawable/diecinueveve" />
+
+    <ImageView
+        android:id="@+id/imgTrece"
+        android:layout_width="37dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintStart_toEndOf="@+id/imgDoce"
+        app:layout_constraintTop_toBottomOf="@+id/imgNueve"
+        app:srcCompat="@drawable/treceve"
+        android:contentDescription="TODO"/>
+
+    <ImageView
+        android:id="@+id/imgCatorce"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toEndOf="@+id/imgTrece"
+        app:layout_constraintTop_toBottomOf="@+id/imgOcho"
+        app:srcCompat="@drawable/catorceve"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imgDiesciocho"
+        android:layout_width="36dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/imgDiescinueve"
+        app:layout_constraintTop_toBottomOf="@+id/imgDiescisiete"
+        app:srcCompat="@drawable/dieciochove"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imgCuatro"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="334dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgTres"
+        app:srcCompat="@drawable/cuatrove"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imgDos"
+        android:layout_width="33dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toEndOf="@+id/imgUno"
+        app:layout_constraintTop_toBottomOf="@+id/imgNumeros"
+        app:srcCompat="@drawable/dosve"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imgDiescisiete"
+        android:layout_width="33dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintStart_toEndOf="@+id/imgDiesciseis"
+        app:layout_constraintTop_toBottomOf="@+id/imgCinco"
+        app:srcCompat="@drawable/diecisieteve"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="TODO"/>
+
+    <ImageView
+        android:id="@+id/imgSiete"
+        android:layout_width="34dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="118dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgDos"
+        app:srcCompat="@drawable/sieteve"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imgOnce"
+        android:layout_width="36dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgDiez"
+        app:srcCompat="@drawable/onceve"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="TODO"/>
+
+    <ImageView
+        android:id="@+id/imgVeinte"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgDiescinueve"
+        app:layout_constraintTop_toBottomOf="@+id/imgQuince"
+        app:srcCompat="@drawable/veinteve"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imgNueve"
+        android:layout_width="33dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="170dp"
+        app:layout_constraintStart_toEndOf="@+id/imgDiez"
+        app:layout_constraintTop_toBottomOf="@+id/imgNumeros"
+        app:srcCompat="@drawable/nueveve"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imgDiez"
+        android:layout_width="34dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="184dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgNumeros"
+        app:srcCompat="@drawable/diezve"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="TODO"/>
+
+    <ImageView
+        android:id="@+id/imgSeis"
+        android:layout_width="29dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="115dp"
+        app:layout_constraintStart_toEndOf="@+id/imgSiete"
+        app:layout_constraintTop_toBottomOf="@+id/imgDos"
+        app:srcCompat="@drawable/seisve"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imgTres"
+        android:layout_width="32dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="82dp"
+        app:layout_constraintStart_toEndOf="@+id/imgDos"
+        app:layout_constraintTop_toBottomOf="@+id/imgNumeros"
+        app:srcCompat="@drawable/tresve"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imgUno"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgNumeros"
+        app:srcCompat="@drawable/unove"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="145dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="TODO"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/solve"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imgParlanteve"
+        android:layout_width="113dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038"
+        app:srcCompat="@drawable/mensaje2conparlanteve"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="TODO" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

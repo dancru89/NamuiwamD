@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calientefriosombrahve"
+    tools:context=".yatulve.Trueque"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/imgFrio"
+        android:layout_width="243dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/friove"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView47" />
+
+    <ImageView
+        android:id="@+id/imgCalientes"
+        android:layout_width="243dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/calienteve"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView47"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="156dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgCalientes"
+        app:layout_constraintVertical_bias="0.43"
+        app:srcCompat="@drawable/titlealimentoscalientes" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="299dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        app:srcCompat="@drawable/titlealimentosve" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="176dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFrio"
+        app:layout_constraintVertical_bias="0.433"
+        app:srcCompat="@drawable/titlealimentosfrios" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

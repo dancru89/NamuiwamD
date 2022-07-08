@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fruit">
+        <item>WATAYE</item>
+        <item>KALTRUL</item>
+        <item>NITAK</item>
+        <item>KAULLI</item>
+        <item>KACHULL</item>
+        <item>YASKAP</item>
+        <item>AWINCHI</item>
+    </string-array>
+
+</resources>

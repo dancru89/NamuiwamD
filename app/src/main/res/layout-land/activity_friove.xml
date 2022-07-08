@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yatulve.Frio"
+    android:background="@drawable/fondoalimentosfrioshve"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/imgtitlerepollo"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="72dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/imgRepollo"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="@+id/imgRepollo"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlealimentosfrios"
+        app:srcCompat="@drawable/titlerepollove" />
+
+    <ImageView
+        android:id="@+id/imgPregunta"
+        android:layout_width="88dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imgtitlealimentosfrios"
+        app:layout_constraintTop_toTopOf="@+id/imgtitlealimentosfrios"
+        app:srcCompat="@drawable/interrogacionve" />
+
+    <ImageView
+        android:id="@+id/imgtitlepapacolorada"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="64dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/imgPapaColorada"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="@+id/imgPapaColorada"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlealimentosfrios"
+        app:srcCompat="@drawable/titlepapacoloradave" />
+
+    <ImageView
+        android:id="@+id/imgUlluco"
+        android:layout_width="109dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitleullucos"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ullucosve" />
+
+    <ImageView
+        android:id="@+id/imgPapaColorada"
+        android:layout_width="109dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlepapacolorada"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/papacoloradave" />
+
+    <ImageView
+        android:id="@+id/imgtitleullucos"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="88dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/imgUlluco"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="@+id/imgUlluco"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlealimentosfrios"
+        app:srcCompat="@drawable/titleullucosve" />
+
+    <ImageView
+        android:id="@+id/imgtitlepapaamarilla"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="88dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/imgPapaAmarilla"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/imgPapaAmarilla"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlealimentosfrios"
+        app:srcCompat="@drawable/titlepapaamarillave" />
+
+    <ImageView
+        android:id="@+id/imgRepollo"
+        android:layout_width="109dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlerepollo"
+        app:layout_constraintVertical_bias="0.849"
+        app:srcCompat="@drawable/repollove" />
+
+    <ImageView
+        android:id="@+id/imgPapaAmarilla"
+        android:layout_width="109dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="484dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlepapaamarilla"
+        app:layout_constraintVertical_bias="0.622"
+        app:srcCompat="@drawable/papaamarillave" />
+
+    <ImageView
+        android:id="@+id/imgtitlealimentosfrios"
+        android:layout_width="257dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/titlealimentosfriosve" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

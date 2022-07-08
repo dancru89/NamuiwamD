@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".erikadaniel.Domesticoed"
+    android:background="@drawable/paisajeedh">
+
+
+    <ImageView
+        android:id="@+id/imgflores"
+        android:layout_width="79dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="164dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.259"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraducciontierra"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/floresed4g" />
+
+    <ImageView
+        android:id="@+id/imguchuva"
+        android:layout_width="166dp"
+        android:layout_height="146dp"
+        android:layout_marginBottom="144dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraducciontierra"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/uchuvaedg" />
+
+    <ImageView
+        android:id="@+id/imgrosa"
+        android:layout_width="91dp"
+        android:layout_height="132dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraducciontierra"
+        app:layout_constraintVertical_bias="0.213"
+        app:srcCompat="@drawable/rosaedg" />
+
+    <ImageView
+        android:id="@+id/imgsuculenta"
+        android:layout_width="130dp"
+        android:layout_height="108dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraducciontierra"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/suculentasedg" />
+
+    <ImageView
+        android:id="@+id/imgaliso"
+        android:layout_width="135dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="588dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221"
+        app:srcCompat="@drawable/alisoedg" />
+
+    <ImageView
+        android:id="@+id/imgchilco"
+        android:layout_width="184dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraducciontierra"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/chilcoedg" />
+
+    <ImageView
+        android:id="@+id/imgsalvia"
+        android:layout_width="196dp"
+        android:layout_height="173dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraducciontierra"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/salviaedg" />
+
+    <ImageView
+        android:id="@+id/imgtraducciontierra"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054"
+        app:srcCompat="@drawable/titletierraed" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

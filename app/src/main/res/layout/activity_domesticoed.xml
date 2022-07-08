@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/granjaed"
+    tools:context=".erikadaniel.Domesticoed">
+
+    <ImageView
+        android:id="@+id/imgcuy"
+        android:layout_width="90dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toEndOf="@+id/imggallina"
+        app:layout_constraintTop_toBottomOf="@+id/imggato"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/cuyedg" />
+
+    <ImageView
+        android:id="@+id/imgconejo"
+        android:layout_width="87dp"
+        android:layout_height="85dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imggallina"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvaca"
+        app:layout_constraintVertical_bias="0.936"
+        app:srcCompat="@drawable/conejoedg" />
+
+    <ImageView
+        android:id="@+id/imggallina"
+        android:layout_width="88dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgovejo"
+        app:layout_constraintVertical_bias="0.432"
+        app:srcCompat="@drawable/gallinaedg" />
+
+    <ImageView
+        android:id="@+id/imgperro"
+        android:layout_width="128dp"
+        android:layout_height="117dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvaca"
+        app:layout_constraintVertical_bias="0.137"
+        app:srcCompat="@drawable/perroedg" />
+
+    <ImageView
+        android:id="@+id/imggato"
+        android:layout_width="109dp"
+        android:layout_height="115dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toEndOf="@+id/imgperro"
+        app:layout_constraintTop_toBottomOf="@+id/imgcaballo"
+        app:layout_constraintVertical_bias="0.153"
+        app:srcCompat="@drawable/gatoedg" />
+
+
+    <ImageView
+        android:id="@+id/imgcaballo"
+        android:layout_width="112dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        app:layout_constraintVertical_bias="0.158"
+        app:srcCompat="@drawable/caballoedg" />
+
+    <ImageView
+        android:id="@+id/imgvaca"
+        android:layout_width="95dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgcaballo"
+        app:layout_constraintHorizontal_bias="0.345"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/vacaedg" />
+
+    <ImageView
+        android:id="@+id/imgovejo"
+        android:layout_width="98dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgcaballo"
+        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintStart_toEndOf="@+id/imgvaca"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        app:layout_constraintVertical_bias="0.469"
+        app:srcCompat="@drawable/ovejoedg" />
+
+    <ImageView
+        android:id="@+id/imgtraduccion"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
+        android:layout_marginBottom="244dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/titleanimalesed" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="16dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

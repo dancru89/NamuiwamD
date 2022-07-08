@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoconvivenciaed"
+    tools:context="AlvaroW.Autoridadawf"
+    tools:ignore="MissingDefaultResource">
+
+
+    <ImageView
+        android:id="@+id/imgautoridad"
+        android:layout_width="249dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toTopOf="@+id/guideline24"
+        app:srcCompat="@drawable/titleautoridaded" />
+
+    <ImageView
+        android:id="@+id/imgpadre"
+        android:layout_width="119dp"
+        android:layout_height="223dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/imgmama"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="@+id/imgauto"
+        app:layout_constraintTop_toBottomOf="@+id/imgauto"
+        app:layout_constraintVertical_bias="0.262"
+        app:srcCompat="@drawable/papaed" />
+
+    <ImageView
+        android:id="@+id/imgmadre"
+        android:layout_width="136dp"
+        android:layout_height="217dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/imgpadre"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintStart_toStartOf="@+id/imgauto"
+        app:layout_constraintTop_toBottomOf="@+id/imgauto"
+        app:layout_constraintVertical_bias="0.328"
+        app:srcCompat="@drawable/mamaed" />
+
+    <ImageView
+        android:id="@+id/imgtata"
+        android:layout_width="121dp"
+        android:layout_height="244dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toEndOf="@+id/imgauto"
+        app:layout_constraintTop_toBottomOf="@+id/imgauto"
+        app:layout_constraintVertical_bias="0.391"
+        app:srcCompat="@drawable/autoridadabuelo" />
+
+    <ImageView
+        android:id="@+id/imgmama"
+        android:layout_width="113dp"
+        android:layout_height="264dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/imgtata"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imgauto"
+        app:layout_constraintTop_toBottomOf="@+id/imgauto"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/autoridadabuela" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="715dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="7dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="406dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

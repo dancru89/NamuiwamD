@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondobanoed"
+    tools:context=".erikadaniel.Cuerpoed">
+
+
+    <ImageView
+        android:id="@+id/imgcabeza"
+        android:layout_width="126dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="88dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pcabezaedg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccioncuerpo" />
+
+    <ImageView
+        android:id="@+id/imgbrazod"
+        android:layout_width="68dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="220dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pbrazodedg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.699"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccioncuerpo" />
+
+    <ImageView
+        android:id="@+id/imgbrazoi"
+        android:layout_width="68dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="220dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pbrazoiedg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccioncuerpo" />
+
+    <ImageView
+        android:id="@+id/imgmanod"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="204dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pmanodedg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccioncuerpo" />
+
+    <ImageView
+        android:id="@+id/imgmanoi"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="204dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pmanoiedg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccioncuerpo" />
+
+    <ImageView
+        android:id="@+id/imgpiernad"
+        android:layout_width="27dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="136dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/piernadedg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgcabeza" />
+
+    <ImageView
+        android:id="@+id/imgpiernai"
+        android:layout_width="27dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="136dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/piernaiedg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgcabeza" />
+
+    <ImageView
+        android:id="@+id/imgpied"
+        android:layout_width="43dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="88dp"
+        android:scaleType="fitXY"
+
+        android:src="@drawable/piededg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgabdomen" />
+
+
+    <ImageView
+        android:id="@+id/imgpiei"
+        android:layout_width="40dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="76dp"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/pieiedg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgabdomen" />
+
+    <ImageView
+        android:id="@+id/imgtraduccioncuerpo"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115"
+        app:srcCompat="@drawable/titlecuerpoed" />
+
+    <ImageView
+        android:id="@+id/imgabdomen"
+        android:layout_width="85dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="204dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pabdomenedg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccioncuerpo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

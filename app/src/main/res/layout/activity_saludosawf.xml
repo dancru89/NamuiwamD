@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondosaludosed"
+    tools:context=".AlvaroW.Saludosawf">
+
+
+    <ImageView
+        android:id="@+id/imgtraduccionsaludos"
+        android:layout_width="310dp"
+        android:layout_height="218dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        app:layout_constraintVertical_bias="0.063"
+        app:srcCompat="@drawable/ventanacerrada" />
+
+    <ImageView
+        android:id="@+id/imgsaludoss"
+        android:layout_width="276dp"
+        android:layout_height="94dp"
+        android:text="Saludos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/titlesaludosed" />
+
+    <ImageView
+        android:id="@+id/imgsaludosoleado"
+        android:layout_width="170dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgsaludofrio"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        app:srcCompat="@drawable/saludosoleadoed" />
+
+    <ImageView
+        android:id="@+id/imgsaludofrio"
+        android:layout_width="170dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="312dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline12"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        app:srcCompat="@drawable/saludofrioed" />
+
+    <ImageView
+        android:id="@+id/imgsaludotarde"
+        android:layout_width="170dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgsaludosoleado"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        app:srcCompat="@drawable/buenatardeed" />
+
+    <ImageView
+        android:id="@+id/imgsaludonoche"
+        android:layout_width="170dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="324dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgsaludotarde"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        app:layout_constraintVertical_bias="0.166"
+        app:srcCompat="@drawable/buenanocheed" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="4dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="6dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

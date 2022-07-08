@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondovegetaleshve"
+    tools:context=".yatulve.Verduras"
+    tools:ignore="MissingDefaultResource">
+
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="200dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgArado"
+        app:layout_constraintStart_toStartOf="@+id/imgArado"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        app:srcCompat="@drawable/titlevegetalesve" />
+
+
+    <ImageView
+        android:id="@+id/ninove"
+        android:layout_width="93dp"
+        android:layout_height="103dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgArado"
+        app:layout_constraintEnd_toEndOf="@+id/imgArado"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toStartOf="@+id/imgArado"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/verdurasve" />
+
+
+    <ImageView
+        android:id="@+id/imgPregunta"
+        android:layout_width="105dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView65"
+        app:layout_constraintStart_toEndOf="@+id/imageView61"
+        app:layout_constraintTop_toTopOf="@+id/imageView61"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/interrogacionve"
+        tools:ignore="UnknownId" />
+
+    <ImageView
+        android:id="@+id/imgtitlecebolla"
+        android:layout_width="137dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgCebolla"
+        app:layout_constraintEnd_toEndOf="@+id/imgArado"
+        app:layout_constraintHorizontal_bias="0.584"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/imgArado"
+        app:layout_constraintTop_toBottomOf="@+id/imageView61"
+        app:layout_constraintVertical_bias="0.869"
+        app:srcCompat="@drawable/titlecebollave" />
+
+    <ImageView
+        android:id="@+id/imgtitletomate"
+        android:layout_width="134dp"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgTomate"
+        app:layout_constraintEnd_toEndOf="@+id/imgArado"
+        app:layout_constraintHorizontal_bias="0.344"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/imgArado"
+        app:layout_constraintTop_toBottomOf="@+id/imageView61"
+        app:layout_constraintVertical_bias="0.773"
+        app:srcCompat="@drawable/titletomateve" />
+
+    <ImageView
+        android:id="@+id/imgtitlezanahoria"
+        android:layout_width="136dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgZanahoria"
+        app:layout_constraintEnd_toEndOf="@+id/imgArado"
+        app:layout_constraintHorizontal_bias="0.099"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/imgArado"
+        app:layout_constraintTop_toBottomOf="@+id/imageView61"
+        app:layout_constraintVertical_bias="0.789"
+        app:srcCompat="@drawable/titlezanahoriave" />
+
+    <ImageView
+        android:id="@+id/imgtitlepimiento"
+        android:layout_width="135dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgPimiento"
+        app:layout_constraintEnd_toEndOf="@+id/imgArado"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="@+id/imgArado"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/imageView61"
+        app:layout_constraintVertical_bias="0.886"
+        app:srcCompat="@drawable/titlepimentonve" />
+
+    <ImageView
+        android:id="@+id/imgArado"
+        android:layout_width="787dp"
+        android:layout_height="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView61"
+        app:layout_constraintVertical_bias="0.985"
+        app:srcCompat="@drawable/aradove" />
+
+    <ImageView
+        android:id="@+id/imgZanahoria"
+        android:layout_width="128dp"
+        android:layout_height="174dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgArado"
+        app:layout_constraintEnd_toEndOf="@+id/imgArado"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="@+id/imgArado"
+        app:layout_constraintTop_toTopOf="@+id/imgArado"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/zanahoriave" />
+
+    <ImageView
+        android:id="@+id/imgTomate"
+        android:layout_width="124dp"
+        android:layout_height="171dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgArado"
+        app:layout_constraintEnd_toEndOf="@+id/imgArado"
+        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintStart_toStartOf="@+id/imgArado"
+        app:layout_constraintTop_toTopOf="@+id/imgArado"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tomateve" />
+
+    <ImageView
+        android:id="@+id/imgCebolla"
+        android:layout_width="104dp"
+        android:layout_height="171dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgArado"
+        app:layout_constraintEnd_toEndOf="@+id/imgArado"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toStartOf="@+id/imgArado"
+        app:layout_constraintTop_toTopOf="@+id/imgArado"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cebollave" />
+
+    <ImageView
+        android:id="@+id/imgPimiento"
+        android:layout_width="116dp"
+        android:layout_height="172dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgArado"
+        app:layout_constraintEnd_toEndOf="@+id/imgArado"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="@+id/imgArado"
+        app:layout_constraintTop_toTopOf="@+id/imgArado"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pimientove" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

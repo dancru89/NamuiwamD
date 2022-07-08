@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.namuiwan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconomisak_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconomisak"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".Acercade"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".yatulve.Pregunta5numeros"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta4numeros"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta3numeros"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta2numeros"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta1numeros"
+            android:exported="false" />
+        <activity
+            android:name=".Josue.ArrastrarFiguras.ArrastrarSoltar"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta3verdura"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta2vegefrio"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta1vegefrio"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta3frutas"
+            android:exported="false" /> <!-- cambios zaret y willian -->
+        <activity
+            android:name=".willi_zaret.Patiowz"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".willi_zaret.ManualesTelarwz"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".willi_zaret.Alfareriawz"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".willi_zaret.Manualeswz"
+            android:exported="false"
+            android:screenOrientation="landscape" /> <!-- fin de cambios zaret -->
+        <activity
+            android:name=".yatulve.Pregunta2frutas"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta1frutas"
+            android:exported="false" />
+        <activity
+            android:name=".BD.LoginIn"
+            android:exported="true" />
+        <activity
+            android:name=".BD.Login"
+            android:exported="false" />
+        <activity
+            android:name=".Josue.carlos.Adivina"
+            android:exported="false" />
+        <activity
+            android:name=".Josue.MenuAdivina"
+            android:exported="false" />
+        <activity
+            android:name=".Josue.JuegosCJ"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".yatulve.Frio"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".yatulve.Calido"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".yatulve.Trueque"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".yatulve.Numeros"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".yatulve.Verduras"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".yatulve.Frutas"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".yatulve.Herramientas"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".yatulve.MenuHuerta"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Josue.rompeca.Home"
+            android:exported="false" />
+        <activity
+            android:name=".Josue.rompeca.PuzzleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".erikadaniel.Inicio"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- willian y zaret -->
+        <!-- hasta aqui -->
+        <activity
+            android:name=".erikadaniel.Casaed"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".erikadaniel.Geometricaed"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".erikadaniel.Orientacioned"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".erikadaniel.Cuerpoed"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".erikadaniel.Familiaed"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".erikadaniel.Domesticoed"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Menued"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".erikadaniel.Bosqueed"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AlvaroW.Autoridadawf"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AlvaroW.Convivenciaawf"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AlvaroW.Saludosawf"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AlvaroW.Espiritualidadawf"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AlvaroW.Cocinaawf"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AlvaroW.JuegoAlvaroWilf"
+            android:exported="false" />
+        <activity android:name=".Josue.carlos.Memoria" />
+
+        <activity android:name=".yatulve.Habilidadesnew"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

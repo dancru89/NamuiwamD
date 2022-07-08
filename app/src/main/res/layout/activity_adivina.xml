@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Josue.carlos.Adivina"
+    android:orientation="vertical"
+    android:background="@drawable/fondocarlos21"
+    android:fontFamily="@font/kidsboys">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:gravity="center"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="224dp"
+            app:srcCompat="@drawable/arbolcarlos21" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="138dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="129dp"
+            app:srcCompat="@drawable/arbolcarlos21" />
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="84dp"
+            app:srcCompat="@drawable/felizcarlos" />
+
+        <ImageView
+            android:id="@+id/body"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="84dp"
+            app:srcCompat="@drawable/sonriendocarlos"
+            />
+
+        <ImageView
+            android:id="@+id/armLeft"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="84dp"
+            app:srcCompat="@drawable/riendocarlos"
+
+            />
+
+        <ImageView
+            android:id="@+id/armRight"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="84dp"
+            app:srcCompat="@drawable/grunoncarlos"
+            />
+
+        <ImageView
+            android:id="@+id/legLeft"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="84dp"
+            app:srcCompat="@drawable/bravocarlos" />
+
+        <ImageView
+            android:id="@+id/legRight"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="84dp"
+            app:srcCompat="@drawable/tristecarlos" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/fruit"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"/>
+    <GridView
+        android:layout_marginTop="2dp"
+        android:id="@+id/letters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:numColumns="4"
+        android:padding="5dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="5dp"/>
+    //android:stretchMode="columnWidth" las columnas se adaptan al espacio del gridview
+    //android:verticalSpacing="5dp" espacio entre filas
+    //android:horizontalSpacing="5dp" espacio entre columnas
+
+</LinearLayout>

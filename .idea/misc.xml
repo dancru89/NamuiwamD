@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/carlos andres/Namuiwan.2/app/src/main/res/layout/activity_adivina.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout-land/activity_calidove.xml" value="0.30625" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout-land/activity_friove.xml" value="0.31393298059964725" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout-land/activity_herramientasve.xml" value="0.31393298059964725" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout-land/activity_huertave.xml" value="0.1671875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout-land/activity_juegos_cj.xml" value="0.246875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout-land/activity_mainjo.xml" value="0.3148148148148148" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout-land/activity_menu_huertave.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout-land/activity_menued.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout-land/activity_numerosve.xml" value="0.31393298059964725" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout-land/activity_puzzlejo.xml" value="0.2526455026455027" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout-land/activity_truequeve.xml" value="0.31393298059964725" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout-land/activity_verdurasve.xml" value="0.2526455026455027" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout-land/autoridadawf.xml" value="0.3148148148148148" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_acercade.xml" value="0.2984375" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_adivina.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_alfareriawz.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_arrastrar_soltar.xml" value="0.266304347826087" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_bosqueed.xml" value="0.18034447821681865" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_casaed.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_cuerpoed.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_domesticoed.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_familiaed.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_frutasve.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_geometricaed.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_habilidades.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_huertave.xml" value="0.18085106382978725" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_inicio.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_juego_alvaro_wilf.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_login.xml" value="0.5" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_mainjo.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_manuales_telarwz.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_manualeswz.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_menu_adivina.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_menued.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_numerosve.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_orientacioned.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_patiowz.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_pregunta5numeros.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_puzzlejo.xml" value="0.2984375" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/activity_saludosawf.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/adivina1.xml" value="0.2984375" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/alertanacowz.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/alertbufandawz.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/alertchumbewz.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/alertmochilawz.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/alertolla.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/alertpaila.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/alertplatowz.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/alertruanawz.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/alertsombrerowz.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/cocinaawf.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/convivenciaawf.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/espiritualidadawf.xml" value="0.33016304347826086" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/grid_elementjo.xml" value="0.371875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/josue/Namuiwan.2/app/src/main/res/layout/memoria.xml" value="0.2984375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_casaed.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_inicio.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_mainjo.xml" value="0.21875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menu_huertave.xml" value="0.21875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_menued.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_principal_wz.xml" value="0.21875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/cocinaawf.xml" value="0.21875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout-land/activity_calidove.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout-land/activity_friove.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout-land/activity_habilidades.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout-land/activity_habilidadesnew.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout-land/activity_herramientasve.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout-land/activity_menu_huertave.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout-land/activity_numerosve.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout-land/activity_puzzlejo.xml" value="0.11419753086419752" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout-land/activity_truequeve.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout-land/activity_verdurasve.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout-land/autoridadawf.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_acercade.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_alfareriawz.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_bosqueed.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_casaed.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_cuerpoed.xml" value="0.75" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_domesticoed.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_familiaed.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_frutasve.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_geometricaed.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_habilidades.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_habilidadesnew.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_manuales_telarwz.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_manualeswz.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_menued.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_orientacioned.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_patiowz.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/activity_saludosawf.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/alertruanawz.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/cocinaawf.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/convivenciaawf.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Version2/Namuiwan.2/app/src/main/res/layout/espiritualidadawf.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_image_black_24dp.xml" value="0.197" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.197" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.197" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable-v24/ic_photo_camera_black_24dp.xml" value="0.197" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/drawable/ic_launcher_background.xml" value="0.197" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_alfareria_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_arsesania_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_bosqueed.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_calidove.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_casaed.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_cuerpoed.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_domesticoed.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_familiaed.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_friove.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_frutasve.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_geometricaed.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_herramientasve.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_huertaed.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_huertave.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_mainjo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_manuales_telar_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_manuales_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_menu_huertave.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_menued.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_numerosve.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_orientacioned.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_patio_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_plantased.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_principal_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_puzzlejo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_saludosawf.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_salvajeed.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_sitioed.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_tierraed.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_truequeve.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/activity_verdurasve.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/autoridadawf.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/autoridadcomunidadawf.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/cocinaawf.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/convivenciaawf.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/espiritualidadawf.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/grid_elementjo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_anaco_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_chumbe_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_correa_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_jigra_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_mochila_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_olla.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_paila_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_plato_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_ruana_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/image_alert_sombrero_wz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/juego.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/layout/splash_inicioawf.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danii/AndroidStudioProjects/Namuiwan/app/src/main/res/xml/file_paths.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

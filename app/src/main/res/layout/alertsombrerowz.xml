@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/alertwz">
+
+
+    <TextView
+        android:id="@+id/text_dialog_alafareria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="42dp"
+        android:gravity="center"
+        android:text="hola"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        />
+
+    <ImageButton
+        android:id="@+id/imgBtnAnaco"
+        android:layout_width="256dp"
+        android:layout_height="200dp"
+        android:background="@drawable/sombrerowz" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btnImgReproducirSombrero"
+            android:layout_width="10dp"
+            android:layout_height="70dp"
+            android:layout_weight="2"
+            android:background="@drawable/reproducir"
+            />
+        <ImageButton
+            android:id="@+id/imgbtnAlertSombrerowz"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/salir"
+            android:text="salir" />
+
+    </LinearLayout>
+</LinearLayout>

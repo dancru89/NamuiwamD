@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yatulve.Calido"
+    android:background="@drawable/fondoalimentoscalientesve"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/imgtraduccioncalidove"
+        android:layout_width="244dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/titlealimentoscalientesve" />
+
+    <ImageView
+        android:id="@+id/imgArracacha"
+        android:layout_width="112dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlearracacha"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/arracachave" />
+
+    <ImageView
+        android:id="@+id/imgtitleoca"
+        android:layout_width="157dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="48dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/imgOca"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="@+id/imgOca"
+        app:layout_constraintTop_toBottomOf="@+id/imageView60"
+        app:srcCompat="@drawable/titleoca" />
+
+    <ImageView
+        android:id="@+id/imgMaiz"
+        android:layout_width="96dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgPapaGuata"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlemaiz"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/maizve" />
+
+    <ImageView
+        android:id="@+id/imgPapaGuata"
+        android:layout_width="117dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgArracacha"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlepapaguata"
+        app:layout_constraintVertical_bias="0.74"
+        app:srcCompat="@drawable/papaguatave" />
+
+    <ImageView
+        android:id="@+id/imgtitlemaiz"
+        android:layout_width="158dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="12dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/imgMaiz"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="@+id/imgMaiz"
+        app:layout_constraintTop_toBottomOf="@+id/imageView60"
+        app:srcCompat="@drawable/titlemaiz" />
+
+    <ImageView
+        android:id="@+id/imgOca"
+        android:layout_width="121dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgMaiz"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitleoca"
+        app:layout_constraintVertical_bias="0.918"
+        app:srcCompat="@drawable/ocave" />
+
+    <ImageView
+        android:id="@+id/imgtitlepapaguata"
+        android:layout_width="157dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="60dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/imgPapaGuata"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/imgPapaGuata"
+        app:layout_constraintTop_toBottomOf="@+id/imageView60"
+        app:srcCompat="@drawable/titlepapaguata" />
+
+    <ImageView
+        android:id="@+id/imgtitlearracacha"
+        android:layout_width="158dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="12dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/imgArracacha"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="@+id/imgArracacha"
+        app:layout_constraintTop_toBottomOf="@+id/imageView60"
+        app:srcCompat="@drawable/titlearracacha" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

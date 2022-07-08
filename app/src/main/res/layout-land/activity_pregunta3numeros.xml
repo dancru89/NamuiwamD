@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yatulve.Pregunta3numeros"
+    android:background="@drawable/fondonumerosvve">
+
+    <ImageView
+        android:id="@+id/imgNumeros"
+        android:layout_width="245dp"
+        android:layout_height="94dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268"
+        app:srcCompat="@drawable/numerosve" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="87dp"
+        android:layout_height="28dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Puntos:"
+        android:textColor="#F3FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgNumeros"
+        app:layout_constraintEnd_toStartOf="@+id/txtPuntos"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <TextView
+        android:id="@+id/txtPuntos"
+        android:layout_width="16dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="352dp"
+        android:fontFamily="sans-serif-black"
+        android:text="0"
+        android:textColor="#F3FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imgParlanteve"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471" />
+
+
+    <ImageView
+        android:id="@+id/imgCulebrita"
+        android:layout_width="404dp"
+        android:layout_height="222dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imgNumeros"
+        app:srcCompat="@drawable/siluetaculebrahve" />
+
+    <ImageView
+        android:id="@+id/imgUno"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="112dp"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:srcCompat="@drawable/unove" />
+
+    <ImageView
+        android:id="@+id/imgOnce"
+        android:layout_width="36dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.905"
+        app:srcCompat="@drawable/onceve" />
+
+    <ImageView
+        android:id="@+id/imgDiescisiete"
+        android:layout_width="29dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.223"
+        app:srcCompat="@drawable/diecisieteve" />
+
+    <ImageView
+        android:id="@+id/imgDiescinueve"
+        android:layout_width="32dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.732"
+        app:srcCompat="@drawable/diecinueveve" />
+
+    <ImageView
+        android:id="@+id/imgSiete"
+        android:layout_width="36dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/sieteve" />
+
+    <ImageView
+        android:id="@+id/imgCatorce"
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.700"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/catorceve" />
+
+    <ImageView
+        android:id="@+id/imgDiesciseis"
+        android:layout_width="31dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.101"
+        app:srcCompat="@drawable/dieciseisve" />
+
+    <ImageView
+        android:id="@+id/imgVeinte"
+        android:layout_width="35dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.955"
+        app:srcCompat="@drawable/veinteve" />
+
+    <ImageView
+        android:id="@+id/imgDoce"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.623"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.920"
+        app:srcCompat="@drawable/doceve" />
+
+    <ImageView
+        android:id="@+id/imgNueve"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.490"
+        app:srcCompat="@drawable/nueveve" />
+
+    <ImageView
+        android:id="@+id/imgCuatro"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.608"
+        app:srcCompat="@drawable/cuatrove" />
+
+    <ImageView
+        android:id="@+id/imgTrece"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.732"
+        app:srcCompat="@drawable/treceve" />
+
+    <ImageView
+        android:id="@+id/imgQuince"
+        android:layout_width="29dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.680"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.264"
+        app:srcCompat="@drawable/quinceve" />
+
+    <ImageView
+        android:id="@+id/imgSeis"
+        android:layout_width="28dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.139"
+        app:srcCompat="@drawable/seisve" />
+
+    <ImageView
+        android:id="@+id/imgCinco"
+        android:layout_width="35dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.380"
+        app:srcCompat="@drawable/cincove" />
+
+    <ImageView
+        android:id="@+id/imgOcho"
+        android:layout_width="31dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.264"
+        app:srcCompat="@drawable/ochove" />
+
+    <ImageView
+        android:id="@+id/imgDiez"
+        android:layout_width="34dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.697"
+        app:srcCompat="@drawable/diezve" />
+
+    <ImageView
+        android:id="@+id/imgDiesciocho"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.484"
+        app:srcCompat="@drawable/dieciochove" />
+
+    <ImageView
+        android:id="@+id/imgTres"
+        android:layout_width="33dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.857"
+        app:srcCompat="@drawable/tresve" />
+
+    <ImageView
+        android:id="@+id/imgDos"
+        android:layout_width="33dp"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCulebrita"
+        app:layout_constraintEnd_toEndOf="@+id/imgCulebrita"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="@+id/imgCulebrita"
+        app:layout_constraintTop_toTopOf="@+id/imgCulebrita"
+        app:layout_constraintVertical_bias="0.84"
+        app:srcCompat="@drawable/dosve" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="147dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="95dp"
+        app:layout_constraintEnd_toEndOf="@+id/imgNumeros"
+        app:layout_constraintHorizontal_bias="10"
+        app:layout_constraintStart_toStartOf="@+id/imgNumeros"
+        app:layout_constraintTop_toTopOf="@+id/imgNumeros"
+        app:srcCompat="@drawable/numerosmenuve" />
+
+    <ImageView
+        android:id="@+id/imgParlanteve"
+        android:layout_width="113dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgNumeros"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="@+id/imgNumeros"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mensaje2conparlanteve" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

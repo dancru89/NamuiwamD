@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alfareriawz"
+    tools:context=".willi_zaret.Alfareriawz">
+
+    <ImageButton
+        android:id="@+id/imgBtntnPaila"
+        android:layout_width="110dp"
+        android:layout_height="66dp"
+        android:background="@drawable/pailawz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtnPlato"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgBtnPlato"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <ImageButton
+        android:id="@+id/imgBtnPlato"
+        android:layout_width="106dp"
+        android:layout_height="58dp"
+        android:background="@drawable/platowz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgtraduccionalfareria"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgtraduccionalfareria"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <ImageButton
+        android:id="@+id/imgBtnOlla"
+        android:layout_width="80dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ollawz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgtraduccionalfareria"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toEndOf="@+id/imgBtntnPaila"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtnPlato"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <ImageView
+        android:id="@+id/imgtraduccionalfareria"
+        android:layout_width="259dp"
+        android:layout_height="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049"
+        app:srcCompat="@drawable/titlealfareriawz" />
+</androidx.constraintlayout.widget.ConstraintLayout>
